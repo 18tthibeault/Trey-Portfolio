@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Trey Thibeault | Videographer</title>
+<style>
+:root {
+--bg: #fdfcf9;
+--text: #1e1e1e;
+--accent: #2e4f3e; /* forest green */
+--highlight: #d4a373; /* earthy yellow */
+--soft-brown: #a68a64;
+--font-main: 'Helvetica Neue', sans-serif;
+}
+
+body {
+margin: 0;
+font-family: var(--font-main);
+background-color: var(--bg);
+color: var(--text);
+}
+
+header {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 3rem 1rem;
+background-color: var(--bg);
+}
+
+header img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+margin-bottom: 1rem;
+border: 4px solid var(--accent);
+}
+
+h1 {
+margin: 0;
+font-size: 2.5rem;
+color: var(--accent);
+}
+
+p.tagline {
+font-size: 1.2rem;
+color: var(--soft-brown);
+margin-top: 0.5rem;
+}
+
+section {
+padding: 2rem 1rem;
+max-width: 900px;
+margin: 0 auto;
+}
+
+section h2 {
+color: var(--accent);
+font-size: 1.8rem;
+border-bottom: 2px solid var(--highlight);
+padding-bottom: 0.5rem;
+margin-bottom: 1.5rem;
+}
+
+.video-grid {
+display: grid;
+grid-template-columns: 1fr;
+gap: 1.5rem;
+}
+
+.video-grid iframe {
+width: 100%;
+height: 300px;
+border: none;
+}
+
+@media (min-width: 768px) {
+.video-grid {
+grid-template-columns: 1fr 1fr;
+}
+}
+
+.social-link {
+display: inline-block;
+margin-top: 1rem;
+text-decoration: none;
+color: var(--highlight);
+font-weight: bold;
+}
+
+form {
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+input, textarea, button {
+padding: 0.8rem;
+font-size: 1rem;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-family: var(--font-main);
+}
+
+button {
+background-color: var(--accent);
+color: white;
+border: none;
+cursor: pointer;
+}
+
+button:hover {
+background-color: var(--highlight);
+color: var(--text);
+}
+
+footer {
+text-align: center;
+padding: 2rem 1rem;
+color: #666;
+font-size: 0.9rem;
+}
+</style>
+</head>
+<body>
+
+<header>
+<!-- Replace with your actual image URL -->
+<img src="https://via.placeholder.com/150" alt="Trey Thibeault" />
+<h1>Trey Thibeault</h1>
+<p class="tagline">Cinematic Wedding Videographer</p>
+<a href="https://www.instagram.com/treythibeaulttt" class="social-link" target="_blank">📷 Follow me on Instagram</a>
+</header>
+
+<section>
+<h2>My Work</h2>
+<div class="video-grid">
+<!-- Replace these with your actual YouTube video embeds -->
+<iframe src="https://youtu.be/ubPqUCNCCD0?si=KKhuVHYABn0C7wXV" allowfullscreen></iframe>
+<iframe src="https://youtu.be/xpdmcHDjtA8?si=r1FfexBjWWnPXwWo" allowfullscreen></iframe>
+<iframe src="https://youtu.be/pQxXdKooK7A?si=3fmDqxmFqxRXFVSX" allowfullscreen></iframe>
+<iframe src="https://youtu.be/4vjBk_9MC7g?si=1uKsJGX38_v4msO-" allowfullscreen></iframe>
+</div>
+</section>
+
+<section>
+<h2>Contact Me</h2>
+<form action="https://formspree.io/f/your-form-id" method="POST">
+<input type="text" name="name" placeholder="Your name" required />
+<input type="email" name="email" placeholder="Your email" required />
+<textarea name="message" rows="5" placeholder="Tell me about your event..." required></textarea>
+<button type="submit">Send Message</button>
+</form>
+<p style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">
+Powered by <a href="https://formspree.io" target="_blank" style="color: var(--highlight);">Formspree</a>
+</p>
+</section>
+
+<footer>
+&copy; 2025 Trey Thibeault. All rights reserved.
+</footer>
+
+</body>
+</html>
